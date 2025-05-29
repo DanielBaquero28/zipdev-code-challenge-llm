@@ -26,11 +26,11 @@ export async function POST(req: Request) {
       "Access-Control-Allow-Headers": "Content-Type",
     });
 
-    // Check our cache first.
+    // Check cache
     if (cache.has(jobDescription)) {
       const entry = cache.get(jobDescription)!;
       if (Date.now() < entry.expires) {
-        console.log("Cache hit. Returning cached results.");
+        //console.log("Cache hit. Returning cached results.");
         return NextResponse.json(entry.result, { status: 200 });
       } else {
         cache.delete(jobDescription);
@@ -57,9 +57,10 @@ export async function POST(req: Request) {
 
       process.on("close", (code) => {
         if (code !== 0) {
-          reject(new Error(`Python process exited with code ${code}`));
+            console.error(`Python process failed with exit code ${code}`);
+            reject(new Error(`Python process failed with exit code ${code}`));
         } else {
-          resolve(resultData);
+            resolve(resultData);
         }
       });
     });
@@ -68,6 +69,9 @@ export async function POST(req: Request) {
     let parsedResult;
     try {
       parsedResult = JSON.parse(result);
+      if (!Array.isArray(parsedResult)) {
+        throw new Error("Parsed result is not an array");
+      }
     } catch (error: any) {
       console.error("Failed to parse Python output:", result);
       return NextResponse.json(
@@ -78,7 +82,7 @@ export async function POST(req: Request) {
 
     // Cache the parsed result keyed by the job description.
     cache.set(jobDescription, { result: parsedResult, expires: Date.now() + CACHE_TTL });
-    console.log("Caching result for job description.");
+    //console.log("Caching result for job description.");
 
     // Return the result (top 30 scored candidates).
     return NextResponse.json(parsedResult, { status: 200, headers: responseHeaders });

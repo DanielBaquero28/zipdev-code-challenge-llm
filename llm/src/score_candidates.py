@@ -188,16 +188,16 @@ def call_openai(prompt: str, max_retries: int = 3, sleep_time: int = 2) -> str:
                 messages=[{"role": "system", "content": prompt}],
                 temperature=0
             )
-            print("Raw OpenAI Response:", response, file=sys.stderr)
+            #print("Raw OpenAI Response:", response, file=sys.stderr)
 
             # ✅ STOP execution immediately after returning valid response
             return response.choices[0].message.content
 
         except openai.OpenAIError as e:
             if attempt == max_retries - 1:  # ✅ Avoid infinite retry loop
-                print(f"OpenAI API Error: {e}. Max retries reached, exiting...")
+                #print(f"OpenAI API Error: {e}. Max retries reached, exiting...")
                 return "{}"  # Return empty JSON on failure
-            print(f"OpenAI API Error: {e}. Retrying in {sleep_time} seconds...")
+            #print(f"OpenAI API Error: {e}. Retrying in {sleep_time} seconds...")
             time.sleep(sleep_time)
             sleep_time *= 2  # Exponential backoff
 
@@ -211,13 +211,17 @@ def parse_response(response: str) -> list:
         # Remove Markdown-style code block before parsing
         clean_response = re.sub(r"^```json\n|\n```$", "", response.strip())
 
-        print("After Clean Response: " + clean_response, file=sys.stderr)
+        #print("After Clean Response: " + clean_response, file=sys.stderr)
+
+        if not clean_response.startswith('['):
+            raise ValueError("Output does not appear to be a JSON array.")
 
         parsed_data = json.loads(clean_response)
+
         if isinstance(parsed_data, list) and all("id" in c and "name" in c and "score" in c for c in parsed_data):
             return parsed_data
         else:
-            print("Invalid JSON format detected. Retrying with simpler constraints...")
+            #print("Invalid JSON format detected. Retrying with simpler constraints...")
             return []
     except json.JSONDecodeError:
         print("Failed to parse JSON response. Raw response:", response)
@@ -228,10 +232,10 @@ def score_candidates(job_description: str, file_path: str = "processed_candidate
 
     all_batches = load_candidates(file_path)
     scored_candidates = []
-    print(f"Total batches to process: {len(all_batches)}", file=sys.stderr)
+    #print(f"Total batches to process: {len(all_batches)}", file=sys.stderr)
 
     for idx, batch in enumerate(all_batches, start=1):
-        print(f"Processing batch {idx}/{len(all_batches)} with {len(batch)} candidates", file=sys.stderr)
+        #print(f"Processing batch {idx}/{len(all_batches)} with {len(batch)} candidates", file=sys.stderr)
         prompt = build_prompt_2(job_description, batch)
         response = call_openai(prompt)
         parsed_results = parse_response(response)
@@ -245,7 +249,7 @@ def score_candidates(job_description: str, file_path: str = "processed_candidate
 if __name__ == "__main__":
     # Ensure a job description is passed as an argument
     if len(sys.argv) < 2:
-        print("Error: A job description must be provided as an argument.", file=sys.stderr)
+        #print("Error: A job description must be provided as an argument.", file=sys.stderr)
         sys.exit(1)
 
 

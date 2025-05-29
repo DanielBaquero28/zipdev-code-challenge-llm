@@ -68,9 +68,9 @@ export default function HomePage() {
           <table className="border-collapse border border-gray-300">
             <thead>
               <tr className="bg-gray-200">
-                <th className="border border-gray-300 px-4 py-2">Name</th>
-                <th className="border border-gray-300 px-4 py-2">Score</th>
-                <th className="border border-gray-300 px-4 py-2">Highlights</th>
+                <th className="border border-gray-300 px-4 py-2 text-black">Name</th>
+                <th className="border border-gray-300 px-4 py-2 text-black">Score</th>
+                <th className="border border-gray-300 px-4 py-2 text-black">Highlights</th>
               </tr>
             </thead>
             <tbody>
