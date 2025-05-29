@@ -19,6 +19,13 @@ export async function POST(req: Request) {
       );
     }
 
+    // ✅ Set CORS headers to allow frontend requests
+    const responseHeaders = new Headers({
+      "Access-Control-Allow-Origin": "*", // Allow all origins (adjust if needed)
+      "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+    });
+
     // Check our cache first.
     if (cache.has(jobDescription)) {
       const entry = cache.get(jobDescription)!;
@@ -74,7 +81,7 @@ export async function POST(req: Request) {
     console.log("Caching result for job description.");
 
     // Return the result (top 30 scored candidates).
-    return NextResponse.json(parsedResult, { status: 200 });
+    return NextResponse.json(parsedResult, { status: 200, headers: responseHeaders });
   } catch (error: any) {
     console.error("Error processing candidate scoring:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

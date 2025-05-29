@@ -206,7 +206,7 @@ def call_openai(prompt: str, max_retries: int = 3, sleep_time: int = 2) -> str:
 
 def parse_response(response: str) -> list:
     """Validate and parse JSON from OpenAI response while removing unnecessary formatting."""
-    
+
     try:
         # Remove Markdown-style code block before parsing
         clean_response = re.sub(r"^```json\n|\n```$", "", response.strip())
@@ -223,7 +223,7 @@ def parse_response(response: str) -> list:
         print("Failed to parse JSON response. Raw response:", response)
         return []
     
-def score_candidates(job_description: str, file_path: str = "candidates_clean.json") -> List[Dict[str, Any]]:
+def score_candidates(job_description: str, file_path: str = "processed_candidates.json") -> List[Dict[str, Any]]:
     """ Evaluates candidates and returns ranked results. """
 
     all_batches = load_candidates(file_path)
@@ -250,7 +250,7 @@ if __name__ == "__main__":
 
 
     job_description = sys.argv[1]
-    file_path = "candidates_clean.json"
+    file_path = "processed_candidates.json"
 
     scored_candidates = score_candidates(job_description, file_path)
     
