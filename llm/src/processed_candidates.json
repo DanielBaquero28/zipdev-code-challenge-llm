@@ -33,7 +33,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 2",
@@ -69,7 +69,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 3",
@@ -105,7 +105,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 4",
@@ -141,7 +141,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 5",
@@ -177,7 +177,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 6",
@@ -213,7 +213,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 7",
@@ -249,7 +249,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 8",
@@ -285,7 +285,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 9",
@@ -321,7 +321,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "Yes, I have experience in a startup environment.",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 10",
@@ -357,7 +357,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 11",
@@ -393,7 +393,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 12",
@@ -429,7 +429,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "es, I have worked in various startup environments across different industries, including fitness, fintech, and proptech. In these roles, I have gained valuable experience in adapting to dynamic and fast-paced settings, collaborating with cross-functional teams, and navigating the challenges of rapidly evolving projects. My background in these diverse fields has equipped me with a versatile skill set and a strong ability to thrive in startup environments.",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "1.0"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 13",
@@ -465,7 +465,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "Yes, I have experience working in a startup environment. I've worked with several startups, collaborating closely with founding teams, engineers, and product managers to drive innovation and growth.\n\nIn these fast-paced and dynamic environments, I've:\n\n- Contributed to rapid prototyping and development of new features and products\n- Collaborated with cross-functional teams to achieve ambitious goals and deadlines\n- Embraced iterative development, continuous integration, and continuous deployment (CI/CD)\n- Participated in agile development methodologies, such as Scrum and Kanban\n- Focused on delivering high-quality solutions, prioritizing customer needs and feedback\n- Adapted to evolving requirements, pivoting when necessary to ensure project success\n\nStartup experience has taught me to be:\n\n- Agile and flexible\n- Proactive and self-motivated\n- Collaborative and communicative\n- Adaptable to changing priorities and requirements\n- Focused on delivering results and impact\n\nI thrive in startup environments, where innovation, creativity, and speed are essential. I'm excited to bring my skills and experience to another startup&nbsp;venture!",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 14",
@@ -501,7 +501,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "False",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 15",
@@ -537,7 +537,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 16",
@@ -573,7 +573,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 17",
@@ -609,7 +609,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 18",
@@ -645,7 +645,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 19",
@@ -681,7 +681,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 20",
@@ -717,7 +717,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 21",
@@ -753,7 +753,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 22",
@@ -789,7 +789,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 23",
@@ -825,7 +825,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 24",
@@ -861,7 +861,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 25",
@@ -897,7 +897,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 26",
@@ -933,7 +933,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 27",
@@ -969,7 +969,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 28",
@@ -1005,7 +1005,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 29",
@@ -1041,7 +1041,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "5 year experience in RoR",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 30",
@@ -1077,7 +1077,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 31",
@@ -1113,7 +1113,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "10",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 32",
@@ -1149,7 +1149,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "5",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 33",
@@ -1185,7 +1185,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 34",
@@ -1221,7 +1221,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 35",
@@ -1257,7 +1257,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 36",
@@ -1293,7 +1293,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 37",
@@ -1329,7 +1329,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 38",
@@ -1365,7 +1365,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 39",
@@ -1401,7 +1401,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 40",
@@ -1437,7 +1437,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 41",
@@ -1473,7 +1473,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "yes",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "1.0"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 42",
@@ -1509,7 +1509,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 43",
@@ -1545,7 +1545,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 44",
@@ -1581,7 +1581,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 45",
@@ -1617,7 +1617,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "Yes I do",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 46",
@@ -1653,7 +1653,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "5",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 47",
@@ -1689,7 +1689,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 48",
@@ -1725,7 +1725,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 49",
@@ -1761,7 +1761,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 50",
@@ -1797,7 +1797,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 51",
@@ -1833,7 +1833,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 52",
@@ -1869,7 +1869,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 53",
@@ -1905,7 +1905,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 54",
@@ -1941,7 +1941,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 55",
@@ -1977,7 +1977,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 56",
@@ -2013,7 +2013,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 57",
@@ -2049,7 +2049,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 58",
@@ -2085,7 +2085,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 59",
@@ -2121,7 +2121,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "2",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 60",
@@ -2157,7 +2157,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 61",
@@ -2193,7 +2193,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 62",
@@ -2229,7 +2229,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 63",
@@ -2265,7 +2265,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 64",
@@ -2301,7 +2301,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 65",
@@ -2337,7 +2337,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 66",
@@ -2373,7 +2373,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 67",
@@ -2409,7 +2409,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 68",
@@ -2445,7 +2445,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "I have extensive experience in a startup environment, where I have led design and user testing initiatives, focusing on strategic development and user experience enhancement.",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 69",
@@ -2481,7 +2481,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 70",
@@ -2517,7 +2517,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "9",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 71",
@@ -2553,7 +2553,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 72",
@@ -2589,7 +2589,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 73",
@@ -2625,7 +2625,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 74",
@@ -2661,7 +2661,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 75",
@@ -2697,7 +2697,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "10",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 76",
@@ -2733,7 +2733,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 77",
@@ -2769,7 +2769,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 78",
@@ -2805,7 +2805,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 79",
@@ -2841,7 +2841,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 80",
@@ -2877,7 +2877,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 81",
@@ -2913,7 +2913,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 82",
@@ -2949,7 +2949,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 83",
@@ -2985,7 +2985,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "5",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 84",
@@ -3021,7 +3021,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 85",
@@ -3057,7 +3057,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 86",
@@ -3093,7 +3093,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 87",
@@ -3129,7 +3129,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "8",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 88",
@@ -3165,7 +3165,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 89",
@@ -3201,7 +3201,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 90",
@@ -3237,7 +3237,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "5",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 91",
@@ -3273,7 +3273,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 92",
@@ -3309,7 +3309,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 93",
@@ -3345,7 +3345,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 94",
@@ -3381,7 +3381,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 95",
@@ -3417,7 +3417,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 96",
@@ -3453,7 +3453,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "5",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 97",
@@ -3489,7 +3489,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 98",
@@ -3525,7 +3525,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "5",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 99",
@@ -3561,7 +3561,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 100",
@@ -3597,7 +3597,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 101",
@@ -3633,7 +3633,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 102",
@@ -3669,7 +3669,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 103",
@@ -3705,7 +3705,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 104",
@@ -3741,7 +3741,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 105",
@@ -3777,7 +3777,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "2",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 106",
@@ -3813,7 +3813,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 107",
@@ -3849,7 +3849,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 108",
@@ -3885,7 +3885,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "5",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 109",
@@ -3921,7 +3921,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 110",
@@ -3957,7 +3957,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 111",
@@ -3993,7 +3993,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 112",
@@ -4029,7 +4029,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 113",
@@ -4065,7 +4065,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 114",
@@ -4101,7 +4101,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 115",
@@ -4137,7 +4137,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 116",
@@ -4173,7 +4173,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 117",
@@ -4209,7 +4209,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 118",
@@ -4245,7 +4245,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 119",
@@ -4281,7 +4281,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 120",
@@ -4317,7 +4317,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 121",
@@ -4353,7 +4353,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 122",
@@ -4389,7 +4389,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 123",
@@ -4425,7 +4425,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 124",
@@ -4461,7 +4461,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 125",
@@ -4497,7 +4497,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 126",
@@ -4533,7 +4533,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 127",
@@ -4569,7 +4569,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 128",
@@ -4605,7 +4605,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 129",
@@ -4641,7 +4641,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 130",
@@ -4677,7 +4677,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 131",
@@ -4713,7 +4713,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 132",
@@ -4749,7 +4749,7 @@
         "Question 6": "Are you currently living in Latin America?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 133",
@@ -4785,7 +4785,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 134",
@@ -4821,7 +4821,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 135",
@@ -4857,7 +4857,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 136",
@@ -4893,7 +4893,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 137",
@@ -4929,7 +4929,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 138",
@@ -4965,7 +4965,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 139",
@@ -5001,7 +5001,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 140",
@@ -5037,7 +5037,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 141",
@@ -5073,7 +5073,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 142",
@@ -5109,7 +5109,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 143",
@@ -5145,7 +5145,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 144",
@@ -5181,7 +5181,7 @@
         "Question 6": "Have you worked with Klaviyo? Have you used Shopify for B2C?",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "1.0"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 145",
@@ -5217,7 +5217,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 146",
@@ -5253,7 +5253,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 147",
@@ -5289,7 +5289,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 148",
@@ -5325,7 +5325,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 149",
@@ -5361,7 +5361,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 150",
@@ -5397,7 +5397,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 151",
@@ -5433,7 +5433,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 152",
@@ -5469,7 +5469,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 153",
@@ -5505,7 +5505,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 154",
@@ -5541,7 +5541,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 155",
@@ -5577,7 +5577,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 156",
@@ -5613,7 +5613,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 157",
@@ -5649,7 +5649,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 158",
@@ -5685,7 +5685,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 159",
@@ -5721,7 +5721,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 160",
@@ -5757,7 +5757,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "9",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 161",
@@ -5793,7 +5793,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 162",
@@ -5829,7 +5829,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 163",
@@ -5865,7 +5865,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "2",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 164",
@@ -5901,7 +5901,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 165",
@@ -5937,7 +5937,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 166",
@@ -5973,7 +5973,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 167",
@@ -6009,7 +6009,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 168",
@@ -6045,7 +6045,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 169",
@@ -6081,7 +6081,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 170",
@@ -6117,7 +6117,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 171",
@@ -6153,7 +6153,7 @@
         "Question 6": "Have you worked with Klaviyo? Have you used Shopify for B2C?",
         "Answer 6": "",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "1.0"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 172",
@@ -6189,7 +6189,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 173",
@@ -6225,7 +6225,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "3",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 174",
@@ -6261,7 +6261,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "I have significant experience in a startup environment, having worked at Africa Prudential PLC where I led the development of the Invearn mobile app. This project involved comprehensive user research and usability testing, resulting in a 60% reduction in transaction processing times and attracting 32,000 active users within the first 4 months of launch. My role required adaptability, innovation, and close collaboration with cross-functional teams to deliver impactful solutions in a fast-paced setting.",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 175",
@@ -6297,7 +6297,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "I have experience in a startup environment, having worked at Nerdwallet where I led the design of the product comparison feature.",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 176",
@@ -6333,7 +6333,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "6",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 177",
@@ -6369,7 +6369,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 178",
@@ -6405,7 +6405,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 179",
@@ -6441,7 +6441,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 180",
@@ -6477,7 +6477,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 181",
@@ -6513,7 +6513,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 182",
@@ -6549,7 +6549,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 183",
@@ -6585,7 +6585,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 184",
@@ -6621,7 +6621,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "I have extensive experience in a startup environment, having led design and development teams at Storyboard Technology. I played a key role in transitioning the company from corporate podcasting to an innovative enterprise-level audio chat platform, driving significant user engagement and growth.",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "0.0"
+        "Answer 7": "False"
     },
     {
         "Name": "candidate 185",
@@ -6657,7 +6657,7 @@
         "Question 6": "Do you have an experience in a startup environment? Tell us about your experience.",
         "Answer 6": "Yes, all the companies that I had the opportunity to work with were start up.\n\nSmall teams with significant responsibilities and a high degree of independence, sometimes comprising just one person managing a single project or multiple projects.",
         "Question 7": "Are you located in Latin America?",
-        "Answer 7": "1.0"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 186",
@@ -6693,7 +6693,7 @@
         "Question 6": "Do you have experience managing teams? If so, please describe",
         "Answer 6": "",
         "Question 7": "Do you currently live in Latin America?",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 187",
@@ -6729,7 +6729,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 188",
@@ -6765,7 +6765,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 189",
@@ -6801,7 +6801,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 190",
@@ -6837,7 +6837,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 191",
@@ -6873,7 +6873,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 192",
@@ -6909,7 +6909,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 193",
@@ -6945,7 +6945,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "True",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 194",
@@ -6981,7 +6981,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "2",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 195",
@@ -7017,7 +7017,7 @@
         "Question 6": "",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 196",
@@ -7053,7 +7053,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 197",
@@ -7089,7 +7089,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 198",
@@ -7125,7 +7125,7 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     },
     {
         "Name": "candidate 199",
@@ -7161,6 +7161,6 @@
         "Question 6": "How many years of experience do you have as a Lead Generator?",
         "Answer 6": "",
         "Question 7": "",
-        "Answer 7": "nan"
+        "Answer 7": "True"
     }
 ]
