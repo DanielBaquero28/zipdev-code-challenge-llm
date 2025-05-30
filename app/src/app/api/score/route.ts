@@ -4,7 +4,7 @@ import path from "path";
 
 // Simple in-memory caching (keyed by job description)
 const cache = new Map<string, { result: any; expires: number }>();
-const CACHE_TTL = 15 * 60 * 1000; // 15 minutes in milliseconds
+const CACHE_TTL = 10 * 60 * 1000; // 15 minutes in milliseconds
 
 export async function POST(req: Request) {
   try {
