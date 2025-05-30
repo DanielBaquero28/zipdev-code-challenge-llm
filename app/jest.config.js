@@ -1,12 +1,13 @@
 module.exports = {
-    preset: "ts-jest",
-    testEnvironment: "node",
-    setupFiles: ["<rootDir>/jest.setup.js"],
-    transform: {
-    "^.+\\.tsx?$": "ts-jest",        // Transform TypeScript files with ts-jest.
-    "^.+\\.js$": "babel-jest",       // Transform JavaScript files with babel-jest.
+  preset: "ts-jest",
+  testEnvironment: "node",
+  setupFiles: ["<rootDir>/jest.setup.js"],
+  transform: {
+    "^.+\\.(ts|tsx)$": "ts-jest",
+    "^.+\\.js$": "babel-jest",
   },
+  // Transform node-fetch and data-uri-to-buffer even though they are in node_modules
   transformIgnorePatterns: [
-    "/node_modules/(?!(node-fetch)/)" // Ensure node-fetch is transformed.
+    "/node_modules/(?!((node-fetch)|(data-uri-to-buffer)))/"
   ],
 };
