@@ -10,6 +10,10 @@ jobs:
     name: Build and Test
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: app
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -30,6 +34,10 @@ jobs:
     needs: build-test
     runs-on: ubuntu-latest
     if: success()  # Only run deployment if tests pass
+
+    defaults:
+      run:
+        working-directory: app
 
     steps:
       - name: Checkout code
