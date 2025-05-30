@@ -20,7 +20,6 @@ Note: You have by default a loaded preprocessed candidates JSON file with the ca
 
 ## Environment Variables
 - `OPENAI_API_KEY`: Your OpenAI API key
-- `CACHE_TTL`: Cache duration in seconds (default 600)
 
 ## Setup and Installation
 
@@ -31,7 +30,7 @@ Note: You have by default a loaded preprocessed candidates JSON file with the ca
   ```bash
   export LLM_API_KEY=your_openai_api_key_here
 
-- Alternatively, create a .env file in the project's root directory with contents similar to:
+- Alternatively, create a .env file in the project's root llm (zipdev-code-challenge-llm/llm/) directory with contents similar to:
   LLM_API_KEY=your_openai_api_key_here
 
 - Commands:

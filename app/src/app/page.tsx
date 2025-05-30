@@ -206,14 +206,14 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                    <div className="flex gap-3 mt-6 pt-4 border-t border-gray-100">
+                    {/* <div className="flex gap-3 mt-6 pt-4 border-t border-gray-100">
                       <button className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
                         View Profile
                       </button>
                       <button className="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors font-medium">
                         Schedule Interview
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}

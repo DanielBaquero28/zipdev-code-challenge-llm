@@ -1,0 +1,59 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+  deploy:
+    name: Deploy
+    needs: build-test
+    runs-on: ubuntu-latest
+    if: success()  # Only run deployment if tests pass
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build production
+        run: npm run build
+
+      - name: Deploy to Production
+        # Replace the following run step with your deployment command/script.
+        # For example, if you're deploying to Vercel, you can use an action like 'amondnet/vercel-action@v20'.
+        run: |
+          echo "Deploying to production..."
+          # Example deployment command:
+          # npm run deploy
+          
+        # Optionally, you can reference deployment secrets:
+        env:
+          API_TOKEN: ${{ secrets.DEPLOY_API_TOKEN }}
