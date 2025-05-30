@@ -1,5 +1,11 @@
-// Polyfill the Request global if not already defined.
+const fetch = require('node-fetch');
+
 if (typeof Request === "undefined") {
-  // node-fetch exports Request among other things.
-  global.Request = require("node-fetch").Request;
+  global.Request = fetch.Request;
+}
+if (typeof Response === "undefined") {
+  global.Response = fetch.Response;
+}
+if (typeof Headers === "undefined") {
+  global.Headers = fetch.Headers;
 }
