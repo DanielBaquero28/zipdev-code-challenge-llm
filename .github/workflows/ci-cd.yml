@@ -33,7 +33,7 @@ jobs:
     name: Deploy
     needs: build-test
     runs-on: ubuntu-latest
-    if: success()  # Only run deployment if tests pass
+    if: false  # For future deployment
 
     defaults:
       run:
@@ -55,8 +55,6 @@ jobs:
         run: npm run build
 
       - name: Deploy to Production
-        # Replace the following run step with your deployment command/script.
-        # For example, if you're deploying to Vercel, you can use an action like 'amondnet/vercel-action@v20'.
         run: |
           echo "Deploying to production..."
           # Example deployment command:
