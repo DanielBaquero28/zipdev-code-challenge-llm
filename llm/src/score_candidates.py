@@ -115,39 +115,26 @@ def build_prompt_2(job_description: str, candidates_batch: List[Dict[str, Any]])
     return prompt
 
 def build_prompt_constrained(job_description: str, candidates_batch: List[Dict[str, Any]]) -> str:
-    """ Creates a structured prompt defining the system and user roles, few-shot exmaples, and candidate records. """
+    """
+    Build a constrained prompt that directs the AI to return ONLY a valid JSON array.
+    This prompt is more simplified and explicitly instructs on the output format.
+    """
 
-    system_message = """You are an AI technical recruiter assistant. You have a background in technical topics in software engineering, and have experience with GoLang and Ruby on Rails. Your job is to evaluate candidates based on their suitability for the position described below. Prioritize must-have skills from the reference job descriptions,
-    Prioritize must-have skills from the reference job descriptions, but ensure that **all candidates receive a score** based on their closest match, even if they don't meet ideal criteria.
-    Your output should be a JSON list of candidates with the following fields: id, name, score (0-100) including 1 decimal, highlights (summary of strengths).
-    Do not return an empty list—if no candidates fit perfectly, rank them based on partial matches.
-
-    Return a JSON list structured as:
-    [
-        {"id": "candidate_id", "name": "candidate_name", "score": candidate_score, "highlights": ["strength_1", "strength_2"]}
-    ]"""
+    # More constrained system message emphasizing strict JSON output.
+    system_message = (
+        "You are an AI technical recruiter. You must evaluate candidates based solely on the job description provided. "
+        "Return ONLY a JSON array of candidate objects, with no additional explanation or formatting. "
+        "Each candidate object must include the keys: 'id', 'name', 'score' (a numeric value), and 'highlights' (an array of strings). "
+        "Do not include any markdown formatting, no code fences, and no extra text."
+    )
 
 
-    few_shot_examples = [
+    few_shot_example = [
         {
             "id": "1",
             "name": "Candidate 1",
-            "score": 90,
-            "highlights": [
-                "5+ years in Ruby on Rails with production experience",
-                "Expertise in PostgreSQL database performance tuning",
-                "Experience with automated testing (RSpec)"
-            ],
-        },
-        {
-            "id": "2",
-            "name": "Candidate 2",
-            "score": 60,
-            "highlights": [
-                "2 years of experience with Rails",
-                "Basic PostgreSQL knowledge",
-                "Limited experience with automated testing"
-            ]
+            "score": 90.2,
+            "highlights": ["Strong in Ruby on Rails", "Good problem-solving skills"],
         }
     ]
 
@@ -156,18 +143,16 @@ def build_prompt_constrained(job_description: str, candidates_batch: List[Dict[s
     candidate_texts = "\n".join([f"Candidate {i+1}: {candidate['name']}, skills: {candidate['skills']}" for i, candidate in enumerate(candidates_batch)])
 
 
-    prompt = f"""{system_message}
-    Examples:
-    {json.dumps(few_shot_examples, indent=4)}
-
-    Job Description:
-    {job_description}
-
-    Candidates to Evaluate:
-    {candidate_texts}
-
-    Return a structured JSON ranking these candidates.
-    """
+    prompt = (
+        f"{system_message}\n\n"
+        "Example:\n"
+        f"{json.dumps(few_shot_example, indent=2)}\n\n"
+        "Job Description:\n"
+        f"{job_description}\n\n"
+        "Candidates:\n"
+        f"{candidate_texts}\n\n"
+        "Return ONLY a valid JSON array structured as shown in the example above."
+    )
 
     return prompt
 
@@ -236,9 +221,19 @@ def score_candidates(job_description: str, file_path: str = "processed_candidate
 
     for idx, batch in enumerate(all_batches, start=1):
         print(f"Processing batch {idx}/{len(all_batches)} with {len(batch)} candidates", file=sys.stderr)
+        #First attempt
         prompt = build_prompt_2(job_description, batch)
         response = call_openai(prompt)
+
         parsed_results = parse_response(response)
+        # If parsing fails (empty list), retry with a more constrained prompt
+        if not parsed_results:
+            print("First response parsing failed. Retrying with a more constrained prompt", file=sys.stderr)
+
+            constrained_prompt = build_prompt_constrained(job_description, batch)
+            retry_response = call_openai(constrained_prompt)
+            parsed_results = parse_response(retry_response)
+
         scored_candidates.extend(parsed_results)
 
     scored_candidates = [c for c in scored_candidates if "score" in c]

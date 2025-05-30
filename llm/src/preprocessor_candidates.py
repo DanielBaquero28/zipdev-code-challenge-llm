@@ -1,8 +1,11 @@
 import pandas as pd
 import re
 import json
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 from typing import List, Dict, Any
+import warnings
+
+warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 def preprocess_text(text: Any) -> str:
     """
@@ -15,7 +18,8 @@ def preprocess_text(text: Any) -> str:
         text = str(text)
     text = text.lower().strip()
     text = BeautifulSoup(text, "html.parser").get_text()  # Remove HTML tags
-    text = re.sub(r"[^a-zA-Z0-9\s]", "", text)  # Remove special characters
+    text = re.sub(r"[^a-zA-Z0-9\s]", " ", text)  # Remove special characters
+    text = re.sub(r"\s+", " ", text).strip() # Collapse multiple spaces into one
     words = text.split()
     seen = set()
     processed_text = " ".join([word for word in words if word not in seen and not seen.add(word)])
@@ -33,22 +37,30 @@ def process_excel(file_path: str) -> List[Dict[str, Any]]:
     text_columns = [
         "Name", "Job title", "Job department", "Job location", "Headline",
         "Summary", "Keywords", "Educations", "Experiences", "Skills",
-        "Disqualification reason", "Disqualification note"
+        "Disqualification reason", "Disqualification note", "Answer 1", "Question 1",
+        "Answer 2", "Question 2", "Answer 3", "Question 3", "Answer 4", "Question 4",
+        "Answer 5", "Question 5", "Answer 6", "Question 6", "Answer 7", "Question 7"
     ]
 
     # Process numeric (float) columns:
     # If a column contains only 0.0 and 1.0, we treat it as boolean.
     # Otherwise, convert the float to string.
     for column in df.select_dtypes(include=["float64"]).columns:
-        unique_vals = set(df[column].dropna().unique())
+        # Exclude "" (empty strings) to get unique non-empty values.
+        unique_vals = {v for v in df[column].unique() if v != ""}
         if unique_vals.issubset({0.0, 1.0}):
-            # Convert to boolean; 0.0 becomes False and 1.0 becomes True.
-            df[column] = df[column].astype(bool)
+            # Map numeric booleans to their original text values.
+            df[column] = df[column].apply(lambda x: "VERDADERO" if x == 1.0 else ("FALSO" if x == 0.0 else ""))
         else:
             df[column] = df[column].astype(str)
 
     # Replace any remaining NaN values in the DataFrame with an empty string.
     df.fillna("", inplace=True)
+    # Replace "NaT" in any column (e.g., date/time fields) with an empty string.
+    df.replace("NaT", "", inplace=True)
+
+    # Replace fields containing exactly 'nan' or 'nat' (case-insensitive) with an empty string.
+    df.replace(to_replace=r'^(?i:nan|nat)$', value='', regex=True, inplace=True)
 
     # Apply text preprocessing to columns specified in text_columns
     for column in text_columns:
