@@ -96,23 +96,25 @@ def build_prompt_2(job_description: str, candidates_batch: List[Dict[str, Any]])
         }
     ]
     
-    # Format candidates for inclusion in the prompt.
+   # Format candidates clearly and consistently.
     candidate_texts = "\n".join(
-        [f"Candidate {i+1}: {candidate}" for i, candidate in enumerate(candidates_batch)]
+        [
+            f"Candidate {i+1}: Name: {candidate.get('name', 'N/A')}, Skills: {candidate.get('skills', 'N/A')}"
+            for i, candidate in enumerate(candidates_batch)
+        ]
     )
 
     
     
     # Build the final prompt by concatenating system instructions, reference context, examples, and candidate data.
-    prompt = (
-        f"{system_message}\n\n"
+    user_prompt = (
         f"{combined_context}\n"
         f"Examples:\n{json.dumps(few_shot_examples, indent=4)}\n\n"
         f"Candidates to Evaluate:\n{candidate_texts}\n\n"
         "Return a structured JSON ranking these candidates."
     )
     
-    return prompt
+    return (system_message, user_prompt)
 
 def build_prompt_constrained(job_description: str, candidates_batch: List[Dict[str, Any]]) -> str:
     """
@@ -140,11 +142,16 @@ def build_prompt_constrained(job_description: str, candidates_batch: List[Dict[s
 
     # Formatting candidates for structured scoring
     #candidate_texts = "\n".join([f"Candidate {i+1}: {candidate}" for i, candidate in enumerate(candidates_batch)])
-    candidate_texts = "\n".join([f"Candidate {i+1}: {candidate['name']}, skills: {candidate['skills']}" for i, candidate in enumerate(candidates_batch)])
+    # Format candidates clearly and consistently.
+    candidate_texts = "\n".join(
+        [
+            f"Candidate {i+1}: Name: {candidate.get('name', 'N/A')}, Skills: {candidate.get('skills', 'N/A')}"
+            for i, candidate in enumerate(candidates_batch)
+        ]
+    )
 
 
-    prompt = (
-        f"{system_message}\n\n"
+    user_prompt = (
         "Example:\n"
         f"{json.dumps(few_shot_example, indent=2)}\n\n"
         "Job Description:\n"
@@ -154,10 +161,10 @@ def build_prompt_constrained(job_description: str, candidates_batch: List[Dict[s
         "Return ONLY a valid JSON array structured as shown in the example above."
     )
 
-    return prompt
+    return (system_message, user_prompt)
 
 
-def call_openai(prompt: str, max_retries: int = 3, sleep_time: int = 2) -> str:
+def call_openai(system_msg: str, user_msg: str, max_retries: int = 3, sleep_time: int = 2) -> str:
     """Query OpenAI API using the latest OpenAI SDK format with exponential backoff."""
     
     api_key = os.getenv("OPENAI_API_KEY")
@@ -170,8 +177,11 @@ def call_openai(prompt: str, max_retries: int = 3, sleep_time: int = 2) -> str:
         try:
             response = client.chat.completions.create(
                 model="gpt-4",
-                messages=[{"role": "system", "content": prompt}],
-                temperature=0
+                messages=[
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": user_msg}
+                    ],
+                temperature=0.57
             )
             print("Raw OpenAI Response:", response, file=sys.stderr)
 
@@ -221,17 +231,22 @@ def score_candidates(job_description: str, file_path: str = "processed_candidate
 
     for idx, batch in enumerate(all_batches, start=1):
         print(f"Processing batch {idx}/{len(all_batches)} with {len(batch)} candidates", file=sys.stderr)
+
         #First attempt
-        prompt = build_prompt_2(job_description, batch)
-        response = call_openai(prompt)
+        # Get both the system message and the user prompt.
+        system_msg, user_msg = build_prompt_2(job_description, batch)
+        print("System Message:\n", system_msg, file=sys.stderr)
+        print("User Prompt:\n", user_msg, file=sys.stderr)
+        
+        response = call_openai(system_msg, user_msg)
 
         parsed_results = parse_response(response)
         # If parsing fails (empty list), retry with a more constrained prompt
         if not parsed_results:
             print("First response parsing failed. Retrying with a more constrained prompt", file=sys.stderr)
 
-            constrained_prompt = build_prompt_constrained(job_description, batch)
-            retry_response = call_openai(constrained_prompt)
+            system_msg_constrained, user_msg_constrained = build_prompt_constrained(job_description, batch)
+            retry_response = call_openai(system_msg_constrained, user_msg_constrained)
             parsed_results = parse_response(retry_response)
 
         scored_candidates.extend(parsed_results)
